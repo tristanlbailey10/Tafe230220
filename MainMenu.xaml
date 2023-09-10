@@ -11,7 +11,7 @@
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="75,105,0,0" TextWrapping="Wrap" Text="Universal Calculator" VerticalAlignment="Top" FontSize="40" FontWeight="Bold"/>
         <Button Content="Maths Calculator" Margin="116,189,0,0" VerticalAlignment="Top" FontSize="30" Width="293" Height="65"/>
-        <Button Content="Mortgage Calculator" Margin="115,287,0,0" VerticalAlignment="Top" FontSize="30" Height="65"/>
+        <Button Content="Mortgage Calculator" Margin="115,287,0,0" VerticalAlignment="Top" FontSize="30" Height="65" Click="MortgageCalculatorClick"/>
         <Button Content="Currency Converter" Margin="115,385,0,0" VerticalAlignment="Top" FontSize="30" Width="294" Height="65"/>
         <Button Content="Exit" Margin="116,483,0,0" VerticalAlignment="Top" FontSize="30" Width="294" Height="65"/>
         <Image HorizontalAlignment="Left" Height="100" Margin="424,30,0,0" VerticalAlignment="Top" Width="100" Source="Pictures/abacus.PNG"/>

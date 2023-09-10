@@ -26,5 +26,17 @@ namespace Calculator
 		{
 			this.InitializeComponent();
 		}
-	}
+
+		private void MortgageCalculatorClick(object sender, RoutedEventArgs e)
+		{
+			Frame frame = Window.Current.Content as Frame;
+			if (frame == null)
+			{
+				frame = new Frame();
+				Window.Current.Content = frame;
+			}
+
+			frame.Navigate(typeof(MortgageCalculator));
+		}
+    }
 }
