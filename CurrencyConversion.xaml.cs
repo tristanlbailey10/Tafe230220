@@ -48,5 +48,11 @@ namespace Calculator
 				reverseRatioTextBlock.Text = "1 " + currencyNames[toComboBox.SelectedIndex] + " = " + conversionRates[toComboBox.SelectedIndex, fromComboBox.SelectedIndex] + " " + currencyCodes[fromComboBox.SelectedIndex];
 			}
 		}
+
+		private void exitButton_Click(object sender, RoutedEventArgs e)
+		{
+			Frame rootFrame = Window.Current.Content as Frame;
+			rootFrame.Navigate(typeof(MainMenu));
+		}
 	}
 }

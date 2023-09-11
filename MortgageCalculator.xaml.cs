@@ -26,8 +26,7 @@ namespace Calculator
 		public MortgageCalculator()
 		{
 			this.InitializeComponent();
-			this.InitializeComponent();
-			ApplicationView.PreferredLaunchViewSize = new Size(800, 1500);
+			ApplicationView.PreferredLaunchViewSize = new Size(800, 700);
 			ApplicationView.PreferredLaunchWindowingMode = ApplicationViewWindowingMode.PreferredLaunchViewSize;
 		}
 

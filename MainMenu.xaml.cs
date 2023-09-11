@@ -29,14 +29,31 @@ namespace Calculator
 
 		private void MortgageCalculatorClick(object sender, RoutedEventArgs e)
 		{
-			Frame frame = Window.Current.Content as Frame;
-			if (frame == null)
-			{
-				frame = new Frame();
-				Window.Current.Content = frame;
-			}
+			//Frame frame = Window.Current.Content as Frame;
+			//if (frame == null)
+			//{
+			//	frame = new Frame();
+			//	Window.Current.Content = frame;
+			//}
 
-			frame.Navigate(typeof(MortgageCalculator));
+			//frame.Navigate(typeof(MortgageCalculator));
+
+			this.Frame.Navigate(typeof(MortgageCalculator));
 		}
-    }
+
+		private void MathsButton_Click(object sender, RoutedEventArgs e)
+		{
+			this.Frame.Navigate(typeof(MainPage));
+		}
+
+		private void CurrencyCalculator_Click(object sender, RoutedEventArgs e)
+		{
+			this.Frame.Navigate(typeof(CurrencyConversion));
+		}
+
+		private void ExitButton_Click(object sender, RoutedEventArgs e)
+		{
+			Application.Current.Exit();
+		}
+	}
 }
