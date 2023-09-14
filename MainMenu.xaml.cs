@@ -55,5 +55,10 @@ namespace Calculator
 		{
 			Application.Current.Exit();
 		}
-	}
+
+		private void TripButton_Click(object sender, RoutedEventArgs e)
+		{
+			// to be developed later
+        }
+    }
 }

@@ -13,9 +13,15 @@
         <Button x:Name="MathsButton" Content="Maths Calculator" Margin="116,189,0,0" VerticalAlignment="Top" FontSize="30" Width="293" Height="65" Click="MathsButton_Click"/>
         <Button x:Name="MortgageCalculator" Content="Mortgage Calculator" Margin="115,287,0,0" VerticalAlignment="Top" FontSize="30" Height="65" Click="MortgageCalculatorClick"/>
         <Button x:Name="CurrencyCalculator" Content="Currency Converter" Margin="115,385,0,0" VerticalAlignment="Top" FontSize="30" Width="294" Height="65" Click="CurrencyCalculator_Click"/>
-		<Button x:Name="TripCalculator" Content="Trip Converter" Margin="115,581,0,0" VerticalAlignment="Top" FontSize="30" Width="294" Height="65" Click="to_be_developed_later"/>
+<<<<<<< HEAD
+		<Button x:Name="TripCalculator" Content="Trip Converter" Margin="115,581,0,0" VerticalAlignment="Top" FontSize="30" Width="294" Height="65" Click="TripButton_Click"/>
 		<Button x:Name="ExitButton" Content="Exit" Margin="116,483,0,0" VerticalAlignment="Top" FontSize="30" Width="294" Height="65" Click="ExitButton_Click"/>
 		<Image HorizontalAlignment="Left" Height="100" Margin="424,30,0,0" VerticalAlignment="Top" Width="100" Source="Pictures/abacus.PNG"/>
+=======
+	<Button x:Name="TripCalculator" Content="Trip Converter" Margin="115,581,0,0" VerticalAlignment="Top" FontSize="30" Width="294" Height="65" Click="to_be_developed_later"/>
+	<Button x:Name="ExitButton" Content="Exit" Margin="116,483,0,0" VerticalAlignment="Top" FontSize="30" Width="294" Height="65" Click="ExitButton_Click"/>
+	<Image HorizontalAlignment="Left" Height="100" Margin="424,30,0,0" VerticalAlignment="Top" Width="100" Source="Pictures/abacus.PNG"/>
+>>>>>>> be05647232191ab88e517b189f7bf3ba091d9fc0
 
     </Grid>
 </Page>
